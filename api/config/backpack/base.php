@@ -16,7 +16,7 @@ return [
 
     // Menu logos
     'logo_lg'   => '<b>Alt</b>coins',
-    'logo_mini' => '<b>A</b>p',
+    'logo_mini' => '<b>A</b>',
 
     // Developer or company name. Shown in footer.
     'developer_name' => 'Daniel Pereira',
