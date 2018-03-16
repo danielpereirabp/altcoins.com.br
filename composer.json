@@ -1,7 +1,8 @@
 {
     "require": {
         "php": "^7.0.0",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "sqlite3": "*"
     },
     "scripts": {
         "post-install-cmd": "cd api && composer install && touch database/database.sqlite && php artisan migrate:refresh --force && php artisan db:seed --force"
