@@ -2,7 +2,8 @@
     "name": "altcoins",
     "version": "1.0.0",
     "dependencies": {
-        "chalk": "*"
+        "chalk": "*",
+        "semver": "*"
     },
     "engines": {
         "node": "6.11.*",
