@@ -3,6 +3,6 @@
         "web/node_modules"
     ],
     "scripts": {
-        "postinstall": "cd web && npm install"
+        "postinstall": "npm install --prefix ./web"
     }
 }
