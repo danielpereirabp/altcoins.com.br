@@ -14,9 +14,6 @@
         "node": "~6.11.5",
         "npm": "~3.10.10"
     },
-    // "cacheDirectories": [
-    //     "web/node_modules"
-    // ],
     "scripts": {
         "postinstall": "npm install --production --prefix ./web && npm run build --prefix ./web"
     }
