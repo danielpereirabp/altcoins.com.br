@@ -5,8 +5,8 @@
         "chalk": "*"
     },
     "engines": {
-        "node": ">= 6.0.0",
-        "npm": ">= 3.0.0"
+        "node": "6.11.*",
+        "npm": "3.10.*"
     },
     "cacheDirectories": [
         "web/node_modules"
