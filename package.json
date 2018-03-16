@@ -1,4 +1,6 @@
 {
+    "name": "altcoins",
+    "version": "1.0.0",
     "cacheDirectories": [
         "web/node_modules"
     ],
