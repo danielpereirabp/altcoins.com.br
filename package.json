@@ -6,11 +6,12 @@
         "semver": "*",
         "shelljs": "*",
         "ora": "*",
-        "rimraf": "*"
+        "rimraf": "*",
+        "webpack": "*"
     },
     "engines": {
-        "node": "~6.11.*",
-        "npm": "~3.10.*"
+        "node": "~6.11.5",
+        "npm": "~3.10.10"
     },
     "cacheDirectories": [
         "web/node_modules"
