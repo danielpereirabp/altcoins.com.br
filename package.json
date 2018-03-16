@@ -4,7 +4,8 @@
     "dependencies": {
         "chalk": "*",
         "semver": "*",
-        "shelljs": "*"
+        "shelljs": "*",
+        "ora": "*"
     },
     "engines": {
         "node": "6.11.*",
