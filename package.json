@@ -5,6 +5,6 @@
         "web/node_modules"
     ],
     "scripts": {
-        "postinstall": "npm install --prefix ./web"
+        "postinstall": "npm install --production --prefix ./web"
     }
 }
