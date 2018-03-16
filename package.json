@@ -1,6 +1,9 @@
 {
     "name": "altcoins",
     "version": "1.0.0",
+    "require": {
+        "chalk": "*"
+    },
     "cacheDirectories": [
         "web/node_modules"
     ],
