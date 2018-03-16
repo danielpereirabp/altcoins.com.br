@@ -4,7 +4,7 @@
         "ext-mbstring": "*"
     },
     "scripts": {
-        "post-install-cmd": "cd api && composer install && php artisan migrate:refresh --force && php artisan db:seed --force"
+        "post-install-cmd": "cd api && composer install && touch database/database.sqlite && php artisan migrate:refresh --force && php artisan db:seed --force"
     }
 }
 
