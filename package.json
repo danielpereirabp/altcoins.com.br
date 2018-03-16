@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "dependencies": {
         "chalk": "*",
-        "semver": "*"
+        "semver": "*",
+        "shelljs": "*"
     },
     "engines": {
         "node": "6.11.*",
