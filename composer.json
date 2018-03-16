@@ -4,7 +4,7 @@
         "ext-mbstring": "*"
     },
     "scripts": {
-        "post-install-cmd": "cd api && composer install"
+        "post-install-cmd": "cd api && composer install && php artisan migrate --force && php artisan db:seed --force"
     }
 }
 
