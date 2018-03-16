@@ -1,7 +1,20 @@
 {
   "name": "altcoins",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "*",
+    "semver": "*",
+    "shelljs": "*",
+    "ora": "*",
+    "rimraf": "*",
+    "webpack": "*",
+    "extract-text-webpack-plugin": "*",
+    "webpack-merge": "*",
+    "eslint-friendly-formatter": "*",
+    "copy-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "optimize-css-assets-webpack-plugin": "*"
+  },
   "scripts": {
     "postinstall": "npm install --prefix ./web && npm run build --prefix ./web"
   },
