@@ -1,7 +1,7 @@
 {
     "name": "altcoins",
     "version": "1.0.0",
-    "require": {
+    "dependencies": {
         "chalk": "*"
     },
     "engines": {
