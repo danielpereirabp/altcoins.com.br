@@ -1,20 +1,12 @@
 {
-    "name": "altcoins",
-    "version": "1.0.0",
-    "dependencies": {
-        "chalk": "*",
-        "semver": "*",
-        "shelljs": "*",
-        "ora": "*",
-        "rimraf": "*",
-        "webpack": "*",
-        "extract-text-webpack-plugin": "*"
-    },
-    "engines": {
-        "node": "~6.11.5",
-        "npm": "~3.10.10"
-    },
-    "scripts": {
-        "postinstall": "npm install --production --prefix ./web && npm run build --prefix ./web"
-    }
+  "name": "altcoins",
+  "version": "1.0.0",
+  "dependencies": {},
+  "scripts": {
+    "postinstall": "npm install --prefix ./web && npm run build --prefix ./web"
+  },
+  "engines": {
+    "node": "~8.10.0",
+    "npm": "~5.6.0"
+  }
 }
