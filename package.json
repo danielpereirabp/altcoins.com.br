@@ -1,4 +1,7 @@
 {
+    "cacheDirectories": [
+        "web/node_modules"
+    ],
     "scripts": {
         "postinstall": "cd web && npm install"
     }
